@@ -1,7 +1,3 @@
-
-# GitHub Profile README for `geopolitis`
-
-```md
 <h1 align="center">George Politis</h1>
 <h3 align="center">DevOps Lead | Platform Engineering | AI Tooling | Security Automation</h3>
 
@@ -99,7 +95,6 @@ Optional additions:
 - Add certifications
 - Add a "Now" section with current projects
 -->
-```
 
 ## Notes
 
