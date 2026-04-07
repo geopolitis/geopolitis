@@ -8,6 +8,10 @@
   <a href="https://opsatscale.com">Blog</a>
 </p>
 
+<p align="center">
+  <img src="https://github.com/geopolitis/geopolitis/actions/workflows/update-profile-cards.yml/badge.svg" alt="Update profile cards" />
+</p>
+
 ---
 
 ## About me
@@ -23,6 +27,34 @@ My background spans:
 - AI, data, security, and operations
 
 I focus on building resilient platforms, improving delivery systems, strengthening security, and applying AI in practical engineering environments.
+
+---
+
+## Current role
+
+**Executive Director, VP of Engineering**  
+**Goldman Sachs — AI platform and IAM**  
+**June 2025 – Present**
+
+Current priorities include:
+- Establishing the SRE function
+- Supporting migration of large-scale global services to a new platform
+- Improving reliability, performance, and capacity
+- Driving platform efficiency with AI
+- Strengthening controls for resilience and regulatory requirements
+
+---
+
+## Experience highlights
+
+### Tyl by NatWest — DevSecOps & SRE Lead
+Built DevOps, SecOps, and SRE capabilities from scratch for a national payments platform, including observability, on-call, incident management, and compliance-focused engineering practices.
+
+### HSBC Global Private Banking — Head of Digital DevOps
+Defined DevOps target operating models, platform strategy, cloud migration patterns, and engineering transformation approaches across global regulated environments.
+
+### Lloyds Banking Group — DevOps Tech Lead
+Helped establish the DevOps Centre of Excellence, competency frameworks, cloud strategy, and engineering guilds.
 
 ---
 
@@ -62,13 +94,15 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 ## GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=geopolitis&show_icons=true&hide_border=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=geopolitis&layout=compact&hide_border=true" alt="Top languages" />
+  <img height="165" src="./profile/stats.svg" alt="GitHub stats" />
+  <img height="165" src="./profile/top-langs.svg" alt="Top languages" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=geopolitis&theme=github" alt="Profile summary" />
-</p>
+---
+
+## Core areas
+
+`Platform Engineering` `SRE` `DevSecOps` `Cloud` `Observability` `Security Automation` `Resilience` `FinOps` `AI/LLM` `Data Platforms`
 
 ---
 
@@ -78,4 +112,3 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 - GitHub: [@geopolitis](https://github.com/geopolitis)
 - LinkedIn: [georgepolitis](https://www.linkedin.com/in/georgepolitis)
 - Blog: [opsatscale.com](https://opsatscale.com)
-
