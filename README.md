@@ -1,3 +1,9 @@
-## Hi there 👋
 
-<div class="tenor-gif-embed" data-postid="14447159" data-share-method="host" data-aspect-ratio="1.67539" data-width="100%"><a href="https://tenor.com/view/hala-insomnia-glitch-matrix-gif-14447159">Hala Insomnia GIF</a>from <a href="https://tenor.com/search/hala-gifs">Hala GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<!-- GIF and Social Links Div -->
+<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 10px;">
+  <div style="display: flex; justify-content: flex-end; gap: 12px;">
+    <!-- GIF -->
+    <img align="right" height="160"   
+    src="https://tenor.com/view/hala-insomnia-glitch-matrix-gif-14447159" />
+  </div>
+</div>
