@@ -11,7 +11,7 @@
 
 ## About me
 
-I’m **George Politis**, a **DevOps Lead** based in the **UK**.
+I’m **George Politis**, a **Technologists** based in the **UK**.
 
 My work sits at the intersection of:
 - platform engineering
