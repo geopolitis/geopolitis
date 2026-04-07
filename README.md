@@ -1,54 +1,104 @@
 <h1 align="center">George Politis</h1>
-<h3 align="center">DevOps Lead | Platform Engineering | AI Tooling | Security Automation</h3>
+<h3 align="center">Technologist | Platform Engineering | SRE | DevSecOps | AI</h3>
 
 <p align="center">
-  <a href="https://github.com/geopolitis">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=700&lines=Building+reliable+platforms+and+automation;DevOps%2C+security%2C+and+LLM+experimentation;Always+improving+systems%2C+tooling%2C+and+developer+experience" alt="Typing SVG" />
-  </a>
+  <a href="mailto:geo.politis@gmail.com">Email</a> •
+  <a href="https://github.com/geopolitis">GitHub</a> •
+  <a href="https://www.linkedin.com/in/georgepolitis">LinkedIn</a> •
+  <a href="https://opsatscale.com">Blog</a>
 </p>
 
 ---
 
 ## About me
 
-I’m **George Politis**, a **Technologists** based in the **UK**.
+I’m **George Politis**, a **technologist** based in **London, UK**.
 
-My work sits at the intersection of:
-- platform engineering
-- developer experience
-- security automation
-- reliability and operations
-- practical AI/LLM experimentation
+My background spans:
+- Platform engineering
+- SRE
+- DevSecOps
+- Cloud engineering
+- Software engineering
+- AI, data, security, and operations
 
-I enjoy building tools that make systems easier to operate, safer to scale, and simpler for teams to use.
+I focus on building resilient platforms, improving delivery systems, strengthening security, and applying AI in practical engineering environments.
 
 ---
 
-## Current focus
+## Current role
 
-- Building internal tooling and automation
-- Exploring LLM workflows and evaluation pipelines
-- Improving operational maturity and developer productivity
-- Working on secure-by-default platform patterns
+**Executive Director, VP of Engineering**  
+**Goldman Sachs — AI platform and IAM**  
+**June 2025 – Present**
+
+Current priorities include:
+- Establishing the SRE function
+- Supporting migration of large-scale global services to a new platform
+- Improving reliability, performance, and capacity
+- Driving platform efficiency with AI
+- Strengthening controls for resilience and regulatory requirements
+
+---
+
+## Experience highlights
+
+### Tyl by NatWest — DevSecOps & SRE Lead
+Built DevOps, SecOps, and SRE capabilities from scratch for a national payments platform, including observability, on-call, incident management, and compliance-focused engineering practices.
+
+### HSBC Global Private Banking — Head of Digital DevOps
+Defined DevOps target operating models, platform strategy, cloud migration patterns, and engineering transformation approaches across global regulated environments.
+
+### Lloyds Banking Group — DevOps Tech Lead
+Helped establish the DevOps Centre of Excellence, competency frameworks, cloud strategy, and engineering guilds.
 
 ---
 
 ## Featured repositories
 
-### [`GPT-playground`](https://github.com/geopolitis/GPT-playground)
+### [GPT-playground](https://github.com/geopolitis/GPT-playground)
 Playground for GPT experiments and prototyping.
 
-### [`Vault-policy-validator`](https://github.com/geopolitis/Vault-policy-validator)
+### [Vault-policy-validator](https://github.com/geopolitis/Vault-policy-validator)
 Python tooling for validating Vault policies.
 
-### [`MCP-f-Secrets`](https://github.com/geopolitis/MCP-f-Secrets)
-Python project focused on secrets-related workflows and MCP experimentation.
+### [MCP-f-Secrets](https://github.com/geopolitis/MCP-f-Secrets)
+Secrets-related workflows and MCP experimentation.
 
-### [`SRE_maturity_assesment`](https://github.com/geopolitis/SRE_maturity_assesment)
-Utilities and ideas around measuring and improving SRE maturity.
+### [SRE_maturity_assesment](https://github.com/geopolitis/SRE_maturity_assesment)
+Ideas and utilities around SRE maturity assessment.
 
-### [`mistral-RL-scripts`](https://github.com/geopolitis/mistral-RL-scripts)
-Fine-tuning and evaluation scripts for Mistral-based LLM workflows.
+### [mistral-RL-scripts](https://github.com/geopolitis/mistral-RL-scripts)
+Scripts for Mistral-based fine-tuning and evaluation workflows.
+
+### [buddies](https://github.com/geopolitis/buddies)
+Smaller Python tooling project.
+
+---
+
+## Thought leadership
+
+- **LLM & Agent Vulnerability Taxonomy 2026**
+- **From Infrastructure to Intelligence: Re-architecting the Digital Trust Economy**
+- **The natural evolution of DevSecOps into ConsciousOps**
+- **Ops at Scale framework**
+
+Read more on my blog: [opsatscale.com](https://opsatscale.com)
+
+---
+
+## Core areas
+
+`Platform Engineering` `SRE` `DevSecOps` `Cloud` `Observability` `Security Automation` `Resilience` `FinOps` `AI/LLM` `Data Platforms`
+
+---
+
+## Connect
+
+- Email: [geo.politis@gmail.com](mailto:geo.politis@gmail.com)
+- GitHub: [@geopolitis](https://github.com/geopolitis)
+- LinkedIn: [georgepolitis](https://www.linkedin.com/in/georgepolitis)
+- Blog: [opsatscale.com](https://opsatscale.com)Fine-tuning and evaluation scripts for Mistral-based LLM workflows.
 
 ### [`buddies`](https://github.com/geopolitis/buddies)
 A smaller Python project in the broader tooling/automation space.
