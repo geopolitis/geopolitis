@@ -50,45 +50,12 @@ Smaller Python tooling project.
 
 ## Thought leadership
 
-- **LLM & Agent Vulnerability Taxonomy 2026**
-- **From Infrastructure to Intelligence: Re-architecting the Digital Trust Economy**
-- **The natural evolution of DevSecOps into ConsciousOps**
-- **Ops at Scale framework**
+- LLM & Agent Vulnerability Taxonomy 2026
+- From Infrastructure to Intelligence: Re-architecting the Digital Trust Economy
+- The natural evolution of DevSecOps into ConsciousOps
+- Ops at Scale framework
 
 Read more on my blog: [opsatscale.com](https://opsatscale.com)
-
----
-
-## Core areas
-
-`Platform Engineering` `SRE` `DevSecOps` `Cloud` `Observability` `Security Automation` `Resilience` `FinOps` `AI/LLM` `Data Platforms`
-
----
-
-## Connect
-
-- Email: [geo.politis@gmail.com](mailto:geo.politis@gmail.com)
-- GitHub: [@geopolitis](https://github.com/geopolitis)
-- LinkedIn: [georgepolitis](https://www.linkedin.com/in/georgepolitis)
-- Blog: [opsatscale.com](https://opsatscale.com)Fine-tuning and evaluation scripts for Mistral-based LLM workflows.
-
-### [`buddies`](https://github.com/geopolitis/buddies)
-A smaller Python project in the broader tooling/automation space.
-
----
-
-## Tech I work with
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="32" alt="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="32" alt="Bash" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="32" alt="Docker" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="32" alt="Kubernetes" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="32" alt="Linux" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="32" alt="GitHub" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="32" alt="Git" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="32" alt="Terraform" />
-</p>
 
 ---
 
@@ -105,15 +72,10 @@ A smaller Python project in the broader tooling/automation space.
 
 ---
 
-## Let’s connect
+## Connect
 
+- Email: [geo.politis@gmail.com](mailto:geo.politis@gmail.com)
 - GitHub: [@geopolitis](https://github.com/geopolitis)
+- LinkedIn: [georgepolitis](https://www.linkedin.com/in/georgepolitis)
+- Blog: [opsatscale.com](https://opsatscale.com)
 
-<!--
-Optional additions:
-- Add LinkedIn
-- Add personal website
-- Add current employer/company
-- Add certifications
-- Add a "Now" section with current projects
--->
