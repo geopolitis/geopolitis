@@ -26,34 +26,6 @@ I focus on building resilient platforms, improving delivery systems, strengtheni
 
 ---
 
-## Current role
-
-**Executive Director, VP of Engineering**  
-**Goldman Sachs — AI platform and IAM**  
-**June 2025 – Present**
-
-Current priorities include:
-- Establishing the SRE function
-- Supporting migration of large-scale global services to a new platform
-- Improving reliability, performance, and capacity
-- Driving platform efficiency with AI
-- Strengthening controls for resilience and regulatory requirements
-
----
-
-## Experience highlights
-
-### Tyl by NatWest — DevSecOps & SRE Lead
-Built DevOps, SecOps, and SRE capabilities from scratch for a national payments platform, including observability, on-call, incident management, and compliance-focused engineering practices.
-
-### HSBC Global Private Banking — Head of Digital DevOps
-Defined DevOps target operating models, platform strategy, cloud migration patterns, and engineering transformation approaches across global regulated environments.
-
-### Lloyds Banking Group — DevOps Tech Lead
-Helped establish the DevOps Centre of Excellence, competency frameworks, cloud strategy, and engineering guilds.
-
----
-
 ## Featured repositories
 
 ### [GPT-playground](https://github.com/geopolitis/GPT-playground)
