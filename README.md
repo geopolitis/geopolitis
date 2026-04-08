@@ -52,30 +52,10 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
   <img src="https://img.shields.io/badge/Years_on_GitHub-13-1F6FEB?style=for-the-badge" alt="Years on GitHub: 13" />
   <img src="https://img.shields.io/badge/Public_Repos-22-238636?style=for-the-badge" alt="Public Repos: 22" />
   <img src="https://img.shields.io/badge/Stars_Earned-25-9A6700?style=for-the-badge" alt="Stars Earned: 25" />
-  <img src="https://img.shields.io/badge/Authored_PRs_Merged-47-0969DA?style=for-the-badge" alt="Authored PRs Merged: 47" />
+  <img src="https://img.shields.io/badge/Authored_PRs_Merged-49-0969DA?style=for-the-badge" alt="Authored PRs Merged: 49" />
 </p>
 
 <table>
-  <tr>
-    <td valign="top" width="50%">
-      <strong>Selected work</strong>
-      <ul>
-  <li><strong><a href="https://github.com/geopolitis/AuraEval">AuraEval</a></strong> · LLM evaluation platform<br />Python-first evaluation and observability work for practical AI engineering.<br /><sub>Python · AI evaluation · observability</sub></li>
-  <li><strong><a href="https://github.com/geopolitis/MCP-f-Secrets">MCP-f-Secrets</a></strong> · Secrets and workflow automation<br />Security-oriented automation around secrets handling and MCP experimentation.<br /><sub>Python · security automation · workflows</sub></li>
-  <li><strong><a href="https://github.com/geopolitis/Vault-policy-validator">Vault-policy-validator</a></strong> · Policy validation tooling<br />Validation tooling focused on access policy correctness and operational safety.<br /><sub>Python · policy validation · platform security</sub></li>
-  <li><strong><a href="https://github.com/geopolitis/mistral-RL-scripts">mistral-RL-scripts</a></strong> · Model tuning and judging workflows<br />Training and evaluation scripts for model fine-tuning and judge-style LLM workflows.<br /><sub>Python · model training · evaluation pipelines</sub></li>
-</ul>
-    </td>
-    <td valign="top" width="50%">
-      <strong>Technical focus</strong>
-      <ul>
-  <li>Platform engineering for delivery systems, internal tooling, and operational resilience</li>
-  <li>DevSecOps and security automation spanning secrets, policy validation, and workflow hardening</li>
-  <li>AI/LLM engineering with evaluation pipelines, model-judge workflows, and practical experimentation</li>
-  <li>Hands-on implementation across Python, shell automation, JavaScript, and Rust-oriented systems work</li>
-</ul>
-    </td>
-  </tr>
   <tr>
     <td valign="top" width="50%">
       <strong>Engineering signals</strong>
@@ -83,7 +63,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
   <li>Python: detected in 4 repos</li>
   <li>GitHub Actions: detected in 3 repos</li>
   <li>Docker: detected in 1 repo</li>
-  <li>Commit velocity: 0 commits over ~29 days of visible events</li>
+  <li>Commit velocity: 0 commits over ~17 days of visible events</li>
   <li>Mature repo coverage: 4/8 sampled owned repos score 60+</li>
   <li>Quality signals in sample: README 7/8, Tests 4/8, CI 3/8</li>
 </ul>
@@ -93,12 +73,20 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
       <ul>
   <li><strong>13 years</strong> on GitHub with <strong>22</strong> public repositories</li>
   <li><strong>25</strong> stars earned across public work</li>
-  <li><strong>157</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
+  <li><strong>159</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
   <li>Primary language footprint led by <strong>Python</strong> by repo count and <strong>Python</strong> by code volume</li>
 </ul>
     </td>
   </tr>
 </table>
+
+<strong>Technical focus</strong>
+<ul>
+  <li>Platform engineering for delivery systems, internal tooling, and operational resilience</li>
+  <li>DevSecOps and security automation spanning secrets, policy validation, and workflow hardening</li>
+  <li>AI/LLM engineering with evaluation pipelines, model-judge workflows, and practical experimentation</li>
+  <li>Hands-on implementation across Python, shell automation, JavaScript, and Rust-oriented systems work</li>
+</ul>
 
 <details>
 <summary><strong>Methodology and detailed metrics</strong></summary>

@@ -18,36 +18,6 @@ README_START = "<!-- profile-stats:start -->"
 README_END = "<!-- profile-stats:end -->"
 API_BASE = "https://api.github.com"
 USER_AGENT = "geopolitis-profile-stats"
-FLAGSHIP_REPOS = [
-    {
-        "name": "AuraEval",
-        "url": "https://github.com/geopolitis/AuraEval",
-        "label": "LLM evaluation platform",
-        "summary": "Python-first evaluation and observability work for practical AI engineering.",
-        "signals": "Python · AI evaluation · observability",
-    },
-    {
-        "name": "MCP-f-Secrets",
-        "url": "https://github.com/geopolitis/MCP-f-Secrets",
-        "label": "Secrets and workflow automation",
-        "summary": "Security-oriented automation around secrets handling and MCP experimentation.",
-        "signals": "Python · security automation · workflows",
-    },
-    {
-        "name": "Vault-policy-validator",
-        "url": "https://github.com/geopolitis/Vault-policy-validator",
-        "label": "Policy validation tooling",
-        "summary": "Validation tooling focused on access policy correctness and operational safety.",
-        "signals": "Python · policy validation · platform security",
-    },
-    {
-        "name": "mistral-RL-scripts",
-        "url": "https://github.com/geopolitis/mistral-RL-scripts",
-        "label": "Model tuning and judging workflows",
-        "summary": "Training and evaluation scripts for model fine-tuning and judge-style LLM workflows.",
-        "signals": "Python · model training · evaluation pipelines",
-    },
-]
 
 
 def github_request(path: str) -> object:
@@ -320,14 +290,6 @@ def build_stats_block() -> str:
         ]
     )
 
-    flagship_lines = [
-        (
-            f'<strong><a href="{repo["url"]}">{repo["name"]}</a></strong> · {repo["label"]}<br />'
-            f'{repo["summary"]}<br /><sub>{repo["signals"]}</sub>'
-        )
-        for repo in FLAGSHIP_REPOS
-    ]
-
     capability_lines = [
         "Platform engineering for delivery systems, internal tooling, and operational resilience",
         "DevSecOps and security automation spanning secrets, policy validation, and workflow hardening",
@@ -377,16 +339,6 @@ def build_stats_block() -> str:
 <table>
   <tr>
     <td valign="top" width="50%">
-      <strong>Selected work</strong>
-      {html_list(flagship_lines)}
-    </td>
-    <td valign="top" width="50%">
-      <strong>Technical focus</strong>
-      {html_list(capability_lines)}
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
       <strong>Engineering signals</strong>
       {html_list(stack_lines + insight_lines[2:])}
     </td>
@@ -396,6 +348,9 @@ def build_stats_block() -> str:
     </td>
   </tr>
 </table>
+
+<strong>Technical focus</strong>
+{html_list(capability_lines)}
 
 <details>
 <summary><strong>Methodology and detailed metrics</strong></summary>
