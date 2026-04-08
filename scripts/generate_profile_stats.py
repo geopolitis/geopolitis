@@ -42,6 +42,31 @@ def format_number(value: int | None) -> str:
     return f"{value or 0:,}"
 
 
+def slug(text: str) -> str:
+    return (
+        text.replace("-", "--")
+        .replace("_", "__")
+        .replace(" ", "_")
+        .replace("/", "_")
+    )
+
+
+def badge(label: str, value: str, color: str = "0A66C2") -> str:
+    return (
+        f'<img src="https://img.shields.io/badge/{slug(label)}-{slug(value)}-{color}?style=for-the-badge" '
+        f'alt="{label}: {value}" />'
+    )
+
+
+def mini_bar(value: float, width: int = 10) -> str:
+    filled = max(0, min(width, round(value * width)))
+    return "█" * filled + "░" * (width - filled)
+
+
+def html_lines(lines: list[str]) -> str:
+    return "<br />\n".join(lines)
+
+
 def github_years(created_at: str | None) -> int:
     if not created_at:
         return 0
@@ -248,67 +273,98 @@ def build_stats_block() -> str:
 
     language_bytes_rows = insight_bundle["language_bytes_rows"][:6]
     language_bytes_total = sum(bytes_count for _, bytes_count in language_bytes_rows)
+    top_language_total = sum(count for _, count in top_languages)
 
-    summary_table = "\n".join(
+    badge_row = "\n".join(
         [
-            "| Metric | Value |",
-            "| --- | ---: |",
-            f"| Years on GitHub | {github_years(user.get('created_at'))} |",
-            f"| Public repos | {format_number(len(repos))} |",
-            f"| Followers | {format_number(user.get('followers'))} |",
-            f"| Following | {format_number(user.get('following'))} |",
-            f"| Public orgs | {format_number(len(orgs))} |",
-            f"| Total stars earned | {format_number(total_stars)} |",
-            f"| PRs authored (public) | {format_number(authored_prs)} |",
-            f"| PRs merged (public) | {format_number(merged_prs)} |",
-            (
-                f"| Estimated lifetime commits (owned repos sample) | {format_number(lifetime_commits)} across {sampled_repos} repos |"
-                if lifetime_commits is not None
-                else "| Estimated lifetime commits (owned repos sample) | Unavailable |"
-            ),
+            '<p align="center">',
+            f"  {badge('Years on GitHub', str(github_years(user.get('created_at'))), '1F6FEB')}",
+            f"  {badge('Public Repos', format_number(len(repos)), '238636')}",
+            f"  {badge('Total Stars', format_number(total_stars), '9A6700')}",
+            f"  {badge('PRs Authored', format_number(authored_prs), '8250DF')}",
+            f"  {badge('PRs Merged', format_number(merged_prs), '0969DA')}",
+            "</p>",
         ]
     )
 
-    top_repo_lines = "\n".join(
-        f"- [{repo['name']}]({repo['html_url']}): {repo.get('stargazers_count', 0)} star"
+    stat_cards = "\n".join(
+        [
+            '<table>',
+            "  <tr>",
+            f'    <td align="center"><strong>{github_years(user.get("created_at"))}</strong><br />Years on GitHub</td>',
+            f'    <td align="center"><strong>{format_number(user.get("followers"))}</strong><br />Followers</td>',
+            f'    <td align="center"><strong>{format_number(user.get("following"))}</strong><br />Following</td>',
+            f'    <td align="center"><strong>{format_number(len(orgs))}</strong><br />Public orgs</td>',
+            "  </tr>",
+            "  <tr>",
+            f'    <td align="center"><strong>{format_number(len(repos))}</strong><br />Public repos</td>',
+            f'    <td align="center"><strong>{format_number(total_stars)}</strong><br />Stars earned</td>',
+            f'    <td align="center"><strong>{format_number(authored_prs)}</strong><br />PRs authored</td>',
+            f'    <td align="center"><strong>{format_number(merged_prs)}</strong><br />PRs merged</td>',
+            "  </tr>",
+            "</table>",
+        ]
+    )
+
+    top_repo_lines = [
+        f'<a href="{repo["html_url"]}"><strong>{repo["name"]}</strong></a> · {repo.get("stargazers_count", 0)} star'
         + ("" if int(repo.get("stargazers_count") or 0) == 1 else "s")
         + (f" - {repo['description']}" if repo.get("description") else "")
         for repo in top_repos
-    )
+    ]
 
-    top_language_lines = "\n".join(
-        f"- {language}: primary language in {count} repo{'s' if count > 1 else ''}"
+    top_language_lines = [
+        f"<code>{mini_bar(count / top_language_total if top_language_total else 0)}</code> <strong>{language}</strong> · {count} repo{'s' if count > 1 else ''}"
         for language, count in top_languages
-    )
+    ]
 
-    language_footprint_lines = "\n".join(
-        f"- {language}: {((bytes_count / language_bytes_total) * 100):.1f}% ({format_number(bytes_count)} bytes)"
+    language_footprint_lines = [
+        f"<code>{mini_bar(bytes_count / language_bytes_total if language_bytes_total else 0)}</code> <strong>{language}</strong> · {((bytes_count / language_bytes_total) * 100):.1f}%"
         for language, bytes_count in language_bytes_rows
-    )
+    ]
 
-    stack_lines = "\n".join(f"- {row}" for row in insight_bundle["stack_rows"][:6]) or "- No framework/tool signals detected."
-    insight_lines = "\n".join(f"- {row}" for row in insight_bundle["insight_rows"])
+    stack_lines = insight_bundle["stack_rows"][:6] or ["No framework/tool signals detected."]
+    insight_lines = insight_bundle["insight_rows"]
+    lifetime_text = (
+        f"{format_number(lifetime_commits)} commits across {sampled_repos} sampled owned repos"
+        if lifetime_commits is not None
+        else "Unavailable"
+    )
 
     return f"""GitHub since **2012**. This section is generated from the same repo- and event-level logic used in `my-github-cv/app.js`, using public GitHub data plus the workflow token.
 
-{summary_table}
+{badge_row}
 
-**Top starred repositories**
-{top_repo_lines}
+{stat_cards}
 
-**Primary languages by repo count**
-Same logic as `app.js`: this counts each public repository by its single GitHub-detected primary language.
-{top_language_lines}
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>Top starred repositories</strong><br />
+      {html_lines(top_repo_lines)}
+    </td>
+    <td valign="top" width="50%">
+      <strong>Primary languages by repo count</strong><br />
+      <sub>Same logic as <code>app.js</code>: one primary GitHub language per public repo.</sub><br /><br />
+      {html_lines(top_language_lines)}
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>Language footprint by code bytes</strong><br />
+      <sub>Same logic as <code>app.js</code>: sampled from the 8 most recently pushed owned public repositories.</sub><br /><br />
+      {html_lines(language_footprint_lines)}
+    </td>
+    <td valign="top" width="50%">
+      <strong>Quality signals</strong><br />
+      <strong>Estimated lifetime commits:</strong> {lifetime_text}<br /><br />
+      {html_lines(insight_lines)}<br /><br />
+      <strong>Stack fingerprint</strong><br />
+      {html_lines(stack_lines)}
+    </td>
+  </tr>
+</table>
 
-**Language footprint by code bytes**
-Same logic as `app.js`: this samples the 8 most recently pushed owned public repositories, then sums GitHub language-byte totals.
-{language_footprint_lines}
-
-**Stack fingerprint**
-{stack_lines}
-
-**Quality signals**
-{insight_lines}
 """
 
 

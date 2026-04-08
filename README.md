@@ -68,54 +68,76 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 <!-- profile-stats:start -->
 GitHub since **2012**. This section is generated from the same repo- and event-level logic used in `my-github-cv/app.js`, using public GitHub data plus the workflow token.
 
-| Metric | Value |
-| --- | ---: |
-| Years on GitHub | 13 |
-| Public repos | 22 |
-| Followers | 5 |
-| Following | 7 |
-| Public orgs | 0 |
-| Total stars earned | 24 |
-| PRs authored (public) | 182 |
-| PRs merged (public) | 44 |
-| Estimated lifetime commits (owned repos sample) | 149 across 8 repos |
+<p align="center">
+  <img src="https://img.shields.io/badge/Years_on_GitHub-13-1F6FEB?style=for-the-badge" alt="Years on GitHub: 13" />
+  <img src="https://img.shields.io/badge/Public_Repos-22-238636?style=for-the-badge" alt="Public Repos: 22" />
+  <img src="https://img.shields.io/badge/Total_Stars-24-9A6700?style=for-the-badge" alt="Total Stars: 24" />
+  <img src="https://img.shields.io/badge/PRs_Authored-184-8250DF?style=for-the-badge" alt="PRs Authored: 184" />
+  <img src="https://img.shields.io/badge/PRs_Merged-45-0969DA?style=for-the-badge" alt="PRs Merged: 45" />
+</p>
 
-**Top starred repositories**
-- [MCP-f-Secrets](https://github.com/geopolitis/MCP-f-Secrets): 3 stars
-- [mistral-RL-scripts](https://github.com/geopolitis/mistral-RL-scripts): 2 stars - Fine Tune Mistral model to become Judge for LLMtrace
-- [buddies](https://github.com/geopolitis/buddies): 1 star
-- [chef-repo](https://github.com/geopolitis/chef-repo): 1 star
-- [cto-toolset](https://github.com/geopolitis/cto-toolset): 1 star
+<table>
+  <tr>
+    <td align="center"><strong>13</strong><br />Years on GitHub</td>
+    <td align="center"><strong>5</strong><br />Followers</td>
+    <td align="center"><strong>7</strong><br />Following</td>
+    <td align="center"><strong>0</strong><br />Public orgs</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>22</strong><br />Public repos</td>
+    <td align="center"><strong>24</strong><br />Stars earned</td>
+    <td align="center"><strong>184</strong><br />PRs authored</td>
+    <td align="center"><strong>45</strong><br />PRs merged</td>
+  </tr>
+</table>
 
-**Primary languages by repo count**
-Same logic as `app.js`: this counts each public repository by its single GitHub-detected primary language.
-- Python: primary language in 6 repos
-- Ruby: primary language in 5 repos
-- CSS: primary language in 3 repos
-- JavaScript: primary language in 2 repos
-- Shell: primary language in 2 repos
-- Jupyter Notebook: primary language in 1 repo
-
-**Language footprint by code bytes**
-Same logic as `app.js`: this samples the 8 most recently pushed owned public repositories, then sums GitHub language-byte totals.
-- Python: 61.1% (943,406 bytes)
-- JavaScript: 16.2% (249,485 bytes)
-- HTML: 11.2% (172,534 bytes)
-- CSS: 8.1% (124,771 bytes)
-- Shell: 2.1% (32,613 bytes)
-- Vue: 1.4% (21,099 bytes)
-
-**Stack fingerprint**
-- Python: detected in 4 repos
-- GitHub Actions: detected in 3 repos
-- Docker: detected in 1 repo
-
-**Quality signals**
-- PR merge rate (public): 24%
-- External collaboration breadth: 2 repos in recent public events
-- Commit velocity: 0 commits over ~29 days of visible events
-- Mature repo coverage: 4/8 sampled owned repos score 60+
-- Quality signals in sample: README 7/8, Tests 4/8, CI 3/8
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>Top starred repositories</strong><br />
+      <a href="https://github.com/geopolitis/MCP-f-Secrets"><strong>MCP-f-Secrets</strong></a> · 3 stars<br />
+<a href="https://github.com/geopolitis/mistral-RL-scripts"><strong>mistral-RL-scripts</strong></a> · 2 stars - Fine Tune Mistral model to become Judge for LLMtrace<br />
+<a href="https://github.com/geopolitis/buddies"><strong>buddies</strong></a> · 1 star<br />
+<a href="https://github.com/geopolitis/chef-repo"><strong>chef-repo</strong></a> · 1 star<br />
+<a href="https://github.com/geopolitis/cto-toolset"><strong>cto-toolset</strong></a> · 1 star
+    </td>
+    <td valign="top" width="50%">
+      <strong>Primary languages by repo count</strong><br />
+      <sub>Same logic as <code>app.js</code>: one primary GitHub language per public repo.</sub><br /><br />
+      <code>███░░░░░░░</code> <strong>Python</strong> · 6 repos<br />
+<code>███░░░░░░░</code> <strong>Ruby</strong> · 5 repos<br />
+<code>██░░░░░░░░</code> <strong>CSS</strong> · 3 repos<br />
+<code>█░░░░░░░░░</code> <strong>JavaScript</strong> · 2 repos<br />
+<code>█░░░░░░░░░</code> <strong>Shell</strong> · 2 repos<br />
+<code>█░░░░░░░░░</code> <strong>Jupyter Notebook</strong> · 1 repo
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>Language footprint by code bytes</strong><br />
+      <sub>Same logic as <code>app.js</code>: sampled from the 8 most recently pushed owned public repositories.</sub><br /><br />
+      <code>██████░░░░</code> <strong>Python</strong> · 61.1%<br />
+<code>██░░░░░░░░</code> <strong>JavaScript</strong> · 16.2%<br />
+<code>█░░░░░░░░░</code> <strong>HTML</strong> · 11.2%<br />
+<code>█░░░░░░░░░</code> <strong>CSS</strong> · 8.1%<br />
+<code>░░░░░░░░░░</code> <strong>Shell</strong> · 2.1%<br />
+<code>░░░░░░░░░░</code> <strong>Vue</strong> · 1.4%
+    </td>
+    <td valign="top" width="50%">
+      <strong>Quality signals</strong><br />
+      <strong>Estimated lifetime commits:</strong> 149 commits across 8 sampled owned repos<br /><br />
+      PR merge rate (public): 24%<br />
+External collaboration breadth: 2 repos in recent public events<br />
+Commit velocity: 0 commits over ~29 days of visible events<br />
+Mature repo coverage: 4/8 sampled owned repos score 60+<br />
+Quality signals in sample: README 7/8, Tests 4/8, CI 3/8<br /><br />
+      <strong>Stack fingerprint</strong><br />
+      Python: detected in 4 repos<br />
+GitHub Actions: detected in 3 repos<br />
+Docker: detected in 1 repo
+    </td>
+  </tr>
+</table>
 <!-- profile-stats:end -->
 
 ---
