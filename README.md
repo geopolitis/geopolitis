@@ -16,7 +16,7 @@
 
 ## About me
 
-I’m **George Politis**, a **technologist** based in **London, UK**.
+I’m a **technologist** based in **London, UK**.
 
 My background spans:
 - Platform engineering
