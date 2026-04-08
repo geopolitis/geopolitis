@@ -72,7 +72,7 @@ GitHub since **2012**. This section is generated from the same repo- and event-l
   <img src="https://img.shields.io/badge/Years_on_GitHub-13-1F6FEB?style=for-the-badge" alt="Years on GitHub: 13" />
   <img src="https://img.shields.io/badge/Public_Repos-22-238636?style=for-the-badge" alt="Public Repos: 22" />
   <img src="https://img.shields.io/badge/Total_Stars-24-9A6700?style=for-the-badge" alt="Total Stars: 24" />
-  <img src="https://img.shields.io/badge/PRs_Authored-184-8250DF?style=for-the-badge" alt="PRs Authored: 184" />
+  <img src="https://img.shields.io/badge/PRs_Authored-183-8250DF?style=for-the-badge" alt="PRs Authored: 183" />
   <img src="https://img.shields.io/badge/PRs_Merged-45-0969DA?style=for-the-badge" alt="PRs Merged: 45" />
 </p>
 
@@ -86,7 +86,7 @@ GitHub since **2012**. This section is generated from the same repo- and event-l
   <tr>
     <td align="center"><strong>22</strong><br />Public repos</td>
     <td align="center"><strong>24</strong><br />Stars earned</td>
-    <td align="center"><strong>184</strong><br />PRs authored</td>
+    <td align="center"><strong>183</strong><br />PRs authored</td>
     <td align="center"><strong>45</strong><br />PRs merged</td>
   </tr>
 </table>
@@ -116,8 +116,8 @@ GitHub since **2012**. This section is generated from the same repo- and event-l
     <td valign="top" width="50%">
       <strong>Language footprint by code bytes</strong><br />
       <sub>Same logic as <code>app.js</code>: sampled from the 8 most recently pushed owned public repositories.</sub><br /><br />
-      <code>██████░░░░</code> <strong>Python</strong> · 61.1%<br />
-<code>██░░░░░░░░</code> <strong>JavaScript</strong> · 16.2%<br />
+      <code>██████░░░░</code> <strong>Python</strong> · 61.2%<br />
+<code>██░░░░░░░░</code> <strong>JavaScript</strong> · 16.1%<br />
 <code>█░░░░░░░░░</code> <strong>HTML</strong> · 11.2%<br />
 <code>█░░░░░░░░░</code> <strong>CSS</strong> · 8.1%<br />
 <code>░░░░░░░░░░</code> <strong>Shell</strong> · 2.1%<br />
@@ -125,8 +125,8 @@ GitHub since **2012**. This section is generated from the same repo- and event-l
     </td>
     <td valign="top" width="50%">
       <strong>Quality signals</strong><br />
-      <strong>Estimated lifetime commits:</strong> 149 commits across 8 sampled owned repos<br /><br />
-      PR merge rate (public): 24%<br />
+      <strong>Estimated lifetime commits:</strong> 151 commits across 8 sampled owned repos<br /><br />
+      PR merge rate (public): 25%<br />
 External collaboration breadth: 2 repos in recent public events<br />
 Commit velocity: 0 commits over ~29 days of visible events<br />
 Mature repo coverage: 4/8 sampled owned repos score 60+<br />
