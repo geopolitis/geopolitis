@@ -65,6 +65,8 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 
 ## GitHub stats
 
+GitHub since **2012**. Public work here is mostly **Python**, with **Rust** also represented in active projects.
+
 <p align="center">
   <img height="165" src="./profile/stats.svg" alt="GitHub stats" />
   <img height="165" src="./profile/top-langs.svg" alt="Top languages" />
