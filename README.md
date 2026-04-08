@@ -26,7 +26,9 @@ My background spans:
 - Software engineering
 - AI, data, security, and operations
 
-I focus on building resilient platforms, improving delivery systems, strengthening security, and applying AI in practical engineering environments.
+<p align="left">
+  <img src="./profile/focus-animated.svg" alt="I build resilient platforms, improve delivery systems, strengthen security, and apply AI in practical engineering environments." />
+</p>
 
 ## Thought leadership
 
