@@ -336,8 +336,8 @@ def build_stats_block() -> str:
     ]
 
     live_signal_lines = [
-        f"<strong>{format_number(authored_prs)}</strong> public PRs authored, with <strong>{format_number(merged_prs)}</strong> authored PRs merged",
-        f"<strong>{format_number(total_stars)}</strong> stars earned across <strong>{format_number(len(repos))}</strong> public repositories",
+        f"<strong>{github_years(user.get('created_at'))} years</strong> on GitHub with <strong>{format_number(len(repos))}</strong> public repositories",
+        f"<strong>{format_number(total_stars)}</strong> stars earned across public work",
         (
             f"<strong>{format_number(lifetime_commits)}</strong> estimated lifetime commits across <strong>{sampled_repos}</strong> sampled owned repos"
             if lifetime_commits is not None
@@ -345,25 +345,6 @@ def build_stats_block() -> str:
         ),
         f"Primary language footprint led by <strong>{top_languages[0][0] if top_languages else 'N/A'}</strong> by repo count and <strong>{language_bytes_rows[0][0] if language_bytes_rows else 'N/A'}</strong> by code volume",
     ]
-
-    metrics_table = "\n".join(
-        [
-            '<table>',
-            "  <tr>",
-            f'    <td align="center"><strong>{github_years(user.get("created_at"))}</strong><br />Years</td>',
-            f'    <td align="center"><strong>{format_number(len(repos))}</strong><br />Repos</td>',
-            f'    <td align="center"><strong>{format_number(total_stars)}</strong><br />Stars</td>',
-            f'    <td align="center"><strong>{format_number(merged_prs)}</strong><br />Merged PRs</td>',
-            "  </tr>",
-            "  <tr>",
-            f'    <td align="center"><strong>{format_number(user.get("followers"))}</strong><br />Followers</td>',
-            f'    <td align="center"><strong>{format_number(user.get("following"))}</strong><br />Following</td>',
-            f'    <td align="center"><strong>{format_number(authored_prs)}</strong><br />Authored PRs</td>',
-            f'    <td align="center"><strong>{format_number(len(orgs))}</strong><br />Public orgs</td>',
-            "  </tr>",
-            "</table>",
-        ]
-    )
 
     top_repo_lines = [
         f'<a href="{repo["html_url"]}"><strong>{repo["name"]}</strong></a> · {repo.get("stargazers_count", 0)} star'
@@ -407,7 +388,7 @@ def build_stats_block() -> str:
   <tr>
     <td valign="top" width="50%">
       <strong>Engineering signals</strong>
-      {html_list(stack_lines + insight_lines[:2])}
+      {html_list(stack_lines + insight_lines[2:])}
     </td>
     <td valign="top" width="50%">
       <strong>Live profile snapshot</strong>
@@ -417,37 +398,18 @@ def build_stats_block() -> str:
 </table>
 
 <details>
-<summary><strong>Detailed metrics</strong></summary>
+<summary><strong>Methodology and detailed metrics</strong></summary>
 
-{metrics_table}
+<strong>Top starred repositories</strong><br />
+{html_lines(top_repo_lines)}<br /><br />
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <strong>Top starred repositories</strong><br />
-      {html_lines(top_repo_lines)}
-    </td>
-    <td valign="top" width="50%">
-      <strong>Primary languages by repo count</strong><br />
-      <sub>Same logic as <code>app.js</code>: one primary GitHub language per public repo.</sub><br /><br />
-      {html_lines(top_language_lines)}
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <strong>Language footprint by code bytes</strong><br />
-      <sub>Same logic as <code>app.js</code>: sampled from the 8 most recently pushed owned public repositories.</sub><br /><br />
-      {html_lines(language_footprint_lines)}
-    </td>
-    <td valign="top" width="50%">
-      <strong>Quality signals</strong><br />
-      <strong>Estimated lifetime commits:</strong> {format_number(lifetime_commits) if lifetime_commits is not None else "Unavailable"} across {sampled_repos} sampled owned repos<br /><br />
-      {html_lines(insight_lines)}<br /><br />
-      <strong>Stack fingerprint</strong><br />
-      {html_lines(stack_lines)}
-    </td>
-  </tr>
-</table>
+<strong>Primary languages by repo count</strong><br />
+<sub>Same logic as <code>app.js</code>: one primary GitHub language per public repo.</sub><br /><br />
+{html_lines(top_language_lines)}<br /><br />
+
+<strong>Language footprint by code bytes</strong><br />
+<sub>Same logic as <code>app.js</code>: sampled from the 8 most recently pushed owned public repositories.</sub><br /><br />
+{html_lines(language_footprint_lines)}
 
 </details>
 
