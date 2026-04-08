@@ -65,18 +65,58 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 
 ## GitHub stats
 
-GitHub since **2012**. Public work here is mostly **Python**, with **Rust** also represented in active projects.
+<!-- profile-stats:start -->
+GitHub since **2012**. This section is generated from the same repo- and event-level logic used in `my-github-cv/app.js`, using public GitHub data plus the workflow token.
 
-<p align="center">
-  <img height="165" src="./profile/stats.svg" alt="GitHub stats" />
-</p>
+| Metric | Value |
+| --- | ---: |
+| Years on GitHub | 13 |
+| Public repos | 22 |
+| Followers | 5 |
+| Following | 7 |
+| Public orgs | 0 |
+| Total stars earned | 24 |
+| PRs authored (public) | 183 |
+| PRs merged (public) | 44 |
+| Estimated lifetime commits (owned repos sample) | 147 across 8 repos |
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Primary-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Also%20write-Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Platform-Shell-89E051?style=for-the-badge&logo=gnu-bash&logoColor=black" alt="Shell" />
-  <img src="https://img.shields.io/badge/Web-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-</p>
+**Top starred repositories**
+- [MCP-f-Secrets](https://github.com/geopolitis/MCP-f-Secrets): 3 stars
+- [mistral-RL-scripts](https://github.com/geopolitis/mistral-RL-scripts): 2 stars - Fine Tune Mistral model to become Judge for LLMtrace
+- [buddies](https://github.com/geopolitis/buddies): 1 star
+- [chef-repo](https://github.com/geopolitis/chef-repo): 1 star
+- [cto-toolset](https://github.com/geopolitis/cto-toolset): 1 star
+
+**Primary languages by repo count**
+Same logic as `app.js`: this counts each public repository by its single GitHub-detected primary language.
+- Python: primary language in 5 repos
+- Ruby: primary language in 5 repos
+- CSS: primary language in 3 repos
+- JavaScript: primary language in 2 repos
+- Shell: primary language in 2 repos
+- Jupyter Notebook: primary language in 1 repo
+
+**Language footprint by code bytes**
+Same logic as `app.js`: this samples the 8 most recently pushed owned public repositories, then sums GitHub language-byte totals.
+- Python: 60.8% (930,527 bytes)
+- JavaScript: 16.3% (249,485 bytes)
+- HTML: 11.3% (172,534 bytes)
+- CSS: 8.1% (124,771 bytes)
+- Shell: 2.1% (32,613 bytes)
+- Vue: 1.4% (21,099 bytes)
+
+**Stack fingerprint**
+- Python: detected in 4 repos
+- GitHub Actions: detected in 3 repos
+- Docker: detected in 1 repo
+
+**Quality signals**
+- PR merge rate (public): 24%
+- External collaboration breadth: 2 repos in recent public events
+- Commit velocity: 0 commits over ~29 days of visible events
+- Mature repo coverage: 4/8 sampled owned repos score 60+
+- Quality signals in sample: README 7/8, Tests 4/8, CI 3/8
+<!-- profile-stats:end -->
 
 ---
 
