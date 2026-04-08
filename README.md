@@ -93,7 +93,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
       <ul>
   <li><strong>13 years</strong> on GitHub with <strong>22</strong> public repositories</li>
   <li><strong>25</strong> stars earned across public work</li>
-  <li><strong>155</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
+  <li><strong>157</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
   <li>Primary language footprint led by <strong>Python</strong> by repo count and <strong>Python</strong> by code volume</li>
 </ul>
     </td>
