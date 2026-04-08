@@ -41,6 +41,13 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 
 ---
 
+
+## Core areas
+
+`Platform Engineering` `SRE` `DevSecOps` `Cloud` `Observability` `Security Automation` `Resilience` `FinOps` `AI/LLM` `Data Platforms`
+
+---
+
 ## GitHub stats
 
 <!-- profile-stats:start -->
@@ -118,17 +125,7 @@ Docker: detected in 1 repo
 </table>
 <!-- profile-stats:end -->
 
----
 
-## Core areas
 
-`Platform Engineering` `SRE` `DevSecOps` `Cloud` `Observability` `Security Automation` `Resilience` `FinOps` `AI/LLM` `Data Platforms`
 
----
 
-## Connect
-
-- Email: [geo.politis@gmail.com](mailto:geo.politis@gmail.com)
-- GitHub: [@geopolitis](https://github.com/geopolitis)
-- LinkedIn: [georgepolitis](https://www.linkedin.com/in/georgepolitis)
-- Blog: [opsatscale.com](https://opsatscale.com)
