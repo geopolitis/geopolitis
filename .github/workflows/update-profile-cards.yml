@@ -30,14 +30,6 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages card
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: top-langs
-          options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=transparent&exclude_repo=Google-Visio-for-Kids&size_weight=0.5&count_weight=0.5'
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"

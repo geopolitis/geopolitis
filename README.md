@@ -69,7 +69,13 @@ GitHub since **2012**. Public work here is mostly **Python**, with **Rust** also
 
 <p align="center">
   <img height="165" src="./profile/stats.svg" alt="GitHub stats" />
-  <img height="165" src="./profile/top-langs.svg" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Primary-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Also%20write-Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Platform-Shell-89E051?style=for-the-badge&logo=gnu-bash&logoColor=black" alt="Shell" />
+  <img src="https://img.shields.io/badge/Web-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
 ---
