@@ -114,9 +114,9 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
     <td valign="top" width="50%">
       <strong>Live profile snapshot</strong>
       <ul>
-  <li><strong>186</strong> public PRs authored, with <strong>46</strong> authored PRs merged</li>
+  <li><strong>184</strong> public PRs authored, with <strong>46</strong> authored PRs merged</li>
   <li><strong>25</strong> stars earned across <strong>22</strong> public repositories</li>
-  <li><strong>153</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
+  <li><strong>155</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
   <li>Primary language footprint led by <strong>Python</strong> by repo count and <strong>Python</strong> by code volume</li>
 </ul>
     </td>
@@ -136,7 +136,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
   <tr>
     <td align="center"><strong>5</strong><br />Followers</td>
     <td align="center"><strong>7</strong><br />Following</td>
-    <td align="center"><strong>186</strong><br />Authored PRs</td>
+    <td align="center"><strong>184</strong><br />Authored PRs</td>
     <td align="center"><strong>0</strong><br />Public orgs</td>
   </tr>
 </table>
@@ -168,14 +168,14 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
       <sub>Same logic as <code>app.js</code>: sampled from the 8 most recently pushed owned public repositories.</sub><br /><br />
       <code>██████░░░░</code> <strong>Python</strong> · 61.2%<br />
 <code>██░░░░░░░░</code> <strong>JavaScript</strong> · 16.1%<br />
-<code>█░░░░░░░░░</code> <strong>HTML</strong> · 11.2%<br />
+<code>█░░░░░░░░░</code> <strong>HTML</strong> · 11.1%<br />
 <code>█░░░░░░░░░</code> <strong>CSS</strong> · 8.1%<br />
 <code>░░░░░░░░░░</code> <strong>Shell</strong> · 2.1%<br />
 <code>░░░░░░░░░░</code> <strong>Vue</strong> · 1.4%
     </td>
     <td valign="top" width="50%">
       <strong>Quality signals</strong><br />
-      <strong>Estimated lifetime commits:</strong> 153 across 8 sampled owned repos<br /><br />
+      <strong>Estimated lifetime commits:</strong> 155 across 8 sampled owned repos<br /><br />
       PR merge rate (public): 25%<br />
 External collaboration breadth: 2 repos in recent public events<br />
 Commit velocity: 0 commits over ~29 days of visible events<br />
