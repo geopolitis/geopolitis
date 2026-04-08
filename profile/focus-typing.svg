@@ -1,0 +1,33 @@
+<svg width="900" height="74" viewBox="0 0 900 74" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Typing effect</title>
+  <desc id="desc">Typing style animation for the engineering focus line.</desc>
+  <style>
+    .bg { fill: #f6f8fa; stroke: #d0d7de; }
+    .text { font: 600 19px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #24292f; }
+    .cursor { fill: #0969da; animation: blink 0.8s steps(1) infinite; }
+    .mask { animation: reveal 4s steps(42) infinite; }
+    @keyframes reveal {
+      0% { width: 0; }
+      15% { width: 0; }
+      70% { width: 760px; }
+      85% { width: 760px; }
+      100% { width: 0; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+  <defs>
+    <clipPath id="clip">
+      <rect class="mask" x="56" y="18" width="0" height="38" />
+    </clipPath>
+  </defs>
+  <rect class="bg" x="1" y="1" width="898" height="72" rx="12" />
+  <g clip-path="url(#clip)">
+    <text class="text" x="56" y="44">I build resilient platforms and improve delivery systems.</text>
+  </g>
+  <rect class="cursor" x="56" y="22" width="10" height="24">
+    <animate attributeName="x" values="56;816;816;56" dur="4s" repeatCount="indefinite" />
+  </rect>
+</svg>

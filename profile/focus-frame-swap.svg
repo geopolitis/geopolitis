@@ -1,0 +1,26 @@
+<svg width="900" height="96" viewBox="0 0 900 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Frame swap</title>
+  <desc id="desc">Frame swap animation rotating between complete statements.</desc>
+  <style>
+    .bg { fill: #f6f8fa; stroke: #d0d7de; }
+    .text { font: 600 19px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #24292f; }
+    .item { opacity: 0; animation: swap 12s infinite; }
+    .item2 { animation-delay: 3s; }
+    .item3 { animation-delay: 6s; }
+    .item4 { animation-delay: 9s; }
+    @keyframes swap {
+      0% { opacity: 0; transform: translateY(6px); }
+      8% { opacity: 1; transform: translateY(0); }
+      20% { opacity: 1; transform: translateY(0); }
+      27% { opacity: 0; transform: translateY(-6px); }
+      100% { opacity: 0; }
+    }
+  </style>
+  <rect class="bg" x="1" y="1" width="898" height="94" rx="12" />
+  <g transform="translate(32 34)">
+    <text class="text item" x="0" y="0">Building resilient platforms</text>
+    <text class="text item item2" x="0" y="0">Improving delivery systems</text>
+    <text class="text item item3" x="0" y="0">Strengthening security automation</text>
+    <text class="text item item4" x="0" y="0">Applying AI in practical engineering environments</text>
+  </g>
+</svg>

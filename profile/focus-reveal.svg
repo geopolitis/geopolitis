@@ -1,0 +1,24 @@
+<svg width="900" height="74" viewBox="0 0 900 74" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mask reveal</title>
+  <desc id="desc">Masked text reveal animation for the engineering focus line.</desc>
+  <style>
+    .bg { fill: #f6f8fa; stroke: #d0d7de; }
+    .text { font: 600 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #24292f; }
+    .shine { fill: #0969da; opacity: 0.16; }
+  </style>
+  <defs>
+    <clipPath id="revealClip">
+      <rect x="0" y="0" width="0" height="74">
+        <animate attributeName="width" values="0;900;900;0" dur="5s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+  <rect class="bg" x="1" y="1" width="898" height="72" rx="12" />
+  <rect class="shine" x="0" y="0" width="120" height="74" clip-path="url(#revealClip)">
+    <animate attributeName="x" values="-120;920" dur="5s" repeatCount="indefinite" />
+  </rect>
+  <g clip-path="url(#revealClip)">
+    <text class="text" x="38" y="44">Strengthening security and applying AI in practical engineering environments.</text>
+  </g>
+  <text class="text" x="38" y="44" opacity="0.15">Strengthening security and applying AI in practical engineering environments.</text>
+</svg>
