@@ -18,6 +18,36 @@ README_START = "<!-- profile-stats:start -->"
 README_END = "<!-- profile-stats:end -->"
 API_BASE = "https://api.github.com"
 USER_AGENT = "geopolitis-profile-stats"
+FLAGSHIP_REPOS = [
+    {
+        "name": "AuraEval",
+        "url": "https://github.com/geopolitis/AuraEval",
+        "label": "LLM evaluation platform",
+        "summary": "Python-first evaluation and observability work for practical AI engineering.",
+        "signals": "Python · AI evaluation · observability",
+    },
+    {
+        "name": "MCP-f-Secrets",
+        "url": "https://github.com/geopolitis/MCP-f-Secrets",
+        "label": "Secrets and workflow automation",
+        "summary": "Security-oriented automation around secrets handling and MCP experimentation.",
+        "signals": "Python · security automation · workflows",
+    },
+    {
+        "name": "Vault-policy-validator",
+        "url": "https://github.com/geopolitis/Vault-policy-validator",
+        "label": "Policy validation tooling",
+        "summary": "Validation tooling focused on access policy correctness and operational safety.",
+        "signals": "Python · policy validation · platform security",
+    },
+    {
+        "name": "mistral-RL-scripts",
+        "url": "https://github.com/geopolitis/mistral-RL-scripts",
+        "label": "Model tuning and judging workflows",
+        "summary": "Training and evaluation scripts for model fine-tuning and judge-style LLM workflows.",
+        "signals": "Python · model training · evaluation pipelines",
+    },
+]
 
 
 def github_request(path: str) -> object:
@@ -65,6 +95,10 @@ def mini_bar(value: float, width: int = 10) -> str:
 
 def html_lines(lines: list[str]) -> str:
     return "<br />\n".join(lines)
+
+
+def html_list(items: list[str]) -> str:
+    return "<ul>\n" + "\n".join(f"  <li>{item}</li>" for item in items) + "\n</ul>"
 
 
 def github_years(created_at: str | None) -> int:
@@ -280,27 +314,52 @@ def build_stats_block() -> str:
             '<p align="center">',
             f"  {badge('Years on GitHub', str(github_years(user.get('created_at'))), '1F6FEB')}",
             f"  {badge('Public Repos', format_number(len(repos)), '238636')}",
-            f"  {badge('Total Stars', format_number(total_stars), '9A6700')}",
-            f"  {badge('PRs Authored', format_number(authored_prs), '8250DF')}",
-            f"  {badge('PRs Merged', format_number(merged_prs), '0969DA')}",
+            f"  {badge('Stars Earned', format_number(total_stars), '9A6700')}",
+            f"  {badge('Authored PRs Merged', format_number(merged_prs), '0969DA')}",
             "</p>",
         ]
     )
 
-    stat_cards = "\n".join(
+    flagship_lines = [
+        (
+            f'<strong><a href="{repo["url"]}">{repo["name"]}</a></strong> · {repo["label"]}<br />'
+            f'{repo["summary"]}<br /><sub>{repo["signals"]}</sub>'
+        )
+        for repo in FLAGSHIP_REPOS
+    ]
+
+    capability_lines = [
+        "Platform engineering for delivery systems, internal tooling, and operational resilience",
+        "DevSecOps and security automation spanning secrets, policy validation, and workflow hardening",
+        "AI/LLM engineering with evaluation pipelines, model-judge workflows, and practical experimentation",
+        "Hands-on implementation across Python, shell automation, JavaScript, and Rust-oriented systems work",
+    ]
+
+    live_signal_lines = [
+        f"<strong>{format_number(authored_prs)}</strong> public PRs authored, with <strong>{format_number(merged_prs)}</strong> authored PRs merged",
+        f"<strong>{format_number(total_stars)}</strong> stars earned across <strong>{format_number(len(repos))}</strong> public repositories",
+        (
+            f"<strong>{format_number(lifetime_commits)}</strong> estimated lifetime commits across <strong>{sampled_repos}</strong> sampled owned repos"
+            if lifetime_commits is not None
+            else "Estimated lifetime commits unavailable"
+        ),
+        f"Primary language footprint led by <strong>{top_languages[0][0] if top_languages else 'N/A'}</strong> by repo count and <strong>{language_bytes_rows[0][0] if language_bytes_rows else 'N/A'}</strong> by code volume",
+    ]
+
+    metrics_table = "\n".join(
         [
             '<table>',
             "  <tr>",
-            f'    <td align="center"><strong>{github_years(user.get("created_at"))}</strong><br />Years on GitHub</td>',
-            f'    <td align="center"><strong>{format_number(user.get("followers"))}</strong><br />Followers</td>',
-            f'    <td align="center"><strong>{format_number(user.get("following"))}</strong><br />Following</td>',
-            f'    <td align="center"><strong>{format_number(len(orgs))}</strong><br />Public orgs</td>',
+            f'    <td align="center"><strong>{github_years(user.get("created_at"))}</strong><br />Years</td>',
+            f'    <td align="center"><strong>{format_number(len(repos))}</strong><br />Repos</td>',
+            f'    <td align="center"><strong>{format_number(total_stars)}</strong><br />Stars</td>',
+            f'    <td align="center"><strong>{format_number(merged_prs)}</strong><br />Merged PRs</td>',
             "  </tr>",
             "  <tr>",
-            f'    <td align="center"><strong>{format_number(len(repos))}</strong><br />Public repos</td>',
-            f'    <td align="center"><strong>{format_number(total_stars)}</strong><br />Stars earned</td>',
-            f'    <td align="center"><strong>{format_number(authored_prs)}</strong><br />PRs authored</td>',
-            f'    <td align="center"><strong>{format_number(merged_prs)}</strong><br />PRs merged</td>',
+            f'    <td align="center"><strong>{format_number(user.get("followers"))}</strong><br />Followers</td>',
+            f'    <td align="center"><strong>{format_number(user.get("following"))}</strong><br />Following</td>',
+            f'    <td align="center"><strong>{format_number(authored_prs)}</strong><br />Authored PRs</td>',
+            f'    <td align="center"><strong>{format_number(len(orgs))}</strong><br />Public orgs</td>',
             "  </tr>",
             "</table>",
         ]
@@ -325,17 +384,42 @@ def build_stats_block() -> str:
 
     stack_lines = insight_bundle["stack_rows"][:6] or ["No framework/tool signals detected."]
     insight_lines = insight_bundle["insight_rows"]
-    lifetime_text = (
-        f"{format_number(lifetime_commits)} commits across {sampled_repos} sampled owned repos"
-        if lifetime_commits is not None
-        else "Unavailable"
-    )
 
-    return f"""GitHub since **2012**. This section is generated from the same repo- and event-level logic used in `my-github-cv/app.js`, using public GitHub data plus the workflow token.
+    return f"""<h3 align="center">Platform, Security, and AI Systems Engineering</h3>
+
+<p align="center">
+  I build resilient engineering systems across platform operations, DevSecOps, security automation, and practical AI delivery.
+</p>
 
 {badge_row}
 
-{stat_cards}
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>Selected work</strong>
+      {html_list(flagship_lines)}
+    </td>
+    <td valign="top" width="50%">
+      <strong>Technical focus</strong>
+      {html_list(capability_lines)}
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>Engineering signals</strong>
+      {html_list(stack_lines + insight_lines[:2])}
+    </td>
+    <td valign="top" width="50%">
+      <strong>Live profile snapshot</strong>
+      {html_list(live_signal_lines)}
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>Detailed metrics</strong></summary>
+
+{metrics_table}
 
 <table>
   <tr>
@@ -357,13 +441,15 @@ def build_stats_block() -> str:
     </td>
     <td valign="top" width="50%">
       <strong>Quality signals</strong><br />
-      <strong>Estimated lifetime commits:</strong> {lifetime_text}<br /><br />
+      <strong>Estimated lifetime commits:</strong> {format_number(lifetime_commits) if lifetime_commits is not None else "Unavailable"} across {sampled_repos} sampled owned repos<br /><br />
       {html_lines(insight_lines)}<br /><br />
       <strong>Stack fingerprint</strong><br />
       {html_lines(stack_lines)}
     </td>
   </tr>
 </table>
+
+</details>
 
 """
 

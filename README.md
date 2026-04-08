@@ -30,6 +30,28 @@ I focus on building resilient platforms, improving delivery systems, strengtheni
 
 ---
 
+## Featured repositories
+
+### [GPT-playground](https://github.com/geopolitis/GPT-playground)
+Playground for GPT experiments and prototyping.
+
+### [Vault-policy-validator](https://github.com/geopolitis/Vault-policy-validator)
+Python tooling for validating Vault policies.
+
+### [MCP-f-Secrets](https://github.com/geopolitis/MCP-f-Secrets)
+Secrets-related workflows and MCP experimentation.
+
+### [SRE_maturity_assesment](https://github.com/geopolitis/SRE_maturity_assesment)
+Ideas and utilities around SRE maturity assessment.
+
+### [mistral-RL-scripts](https://github.com/geopolitis/mistral-RL-scripts)
+Scripts for Mistral-based fine-tuning and evaluation workflows.
+
+### [buddies](https://github.com/geopolitis/buddies)
+Smaller Python tooling project.
+
+---
+
 ## Thought leadership
 
 - LLM & Agent Vulnerability Taxonomy 2026
@@ -41,38 +63,81 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 
 ---
 
-
-## Core areas
-
-`Platform Engineering` `SRE` `DevSecOps` `Cloud` `Observability` `Security Automation` `Resilience` `FinOps` `AI/LLM` `Data Platforms`
-
----
-
 ## GitHub stats
 
 <!-- profile-stats:start -->
-GitHub since **2012**. This section is generated from the same repo- and event-level logic used in `my-github-cv/app.js`, using public GitHub data plus the workflow token.
+<h3 align="center">Platform, Security, and AI Systems Engineering</h3>
+
+<p align="center">
+  I build resilient engineering systems across platform operations, DevSecOps, security automation, and practical AI delivery.
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Years_on_GitHub-13-1F6FEB?style=for-the-badge" alt="Years on GitHub: 13" />
   <img src="https://img.shields.io/badge/Public_Repos-22-238636?style=for-the-badge" alt="Public Repos: 22" />
-  <img src="https://img.shields.io/badge/Total_Stars-24-9A6700?style=for-the-badge" alt="Total Stars: 24" />
-  <img src="https://img.shields.io/badge/PRs_Authored-183-8250DF?style=for-the-badge" alt="PRs Authored: 183" />
-  <img src="https://img.shields.io/badge/PRs_Merged-45-0969DA?style=for-the-badge" alt="PRs Merged: 45" />
+  <img src="https://img.shields.io/badge/Stars_Earned-25-9A6700?style=for-the-badge" alt="Stars Earned: 25" />
+  <img src="https://img.shields.io/badge/Authored_PRs_Merged-46-0969DA?style=for-the-badge" alt="Authored PRs Merged: 46" />
 </p>
 
 <table>
   <tr>
-    <td align="center"><strong>13</strong><br />Years on GitHub</td>
-    <td align="center"><strong>5</strong><br />Followers</td>
-    <td align="center"><strong>7</strong><br />Following</td>
-    <td align="center"><strong>0</strong><br />Public orgs</td>
+    <td valign="top" width="50%">
+      <strong>Selected work</strong>
+      <ul>
+  <li><strong><a href="https://github.com/geopolitis/AuraEval">AuraEval</a></strong> · LLM evaluation platform<br />Python-first evaluation and observability work for practical AI engineering.<br /><sub>Python · AI evaluation · observability</sub></li>
+  <li><strong><a href="https://github.com/geopolitis/MCP-f-Secrets">MCP-f-Secrets</a></strong> · Secrets and workflow automation<br />Security-oriented automation around secrets handling and MCP experimentation.<br /><sub>Python · security automation · workflows</sub></li>
+  <li><strong><a href="https://github.com/geopolitis/Vault-policy-validator">Vault-policy-validator</a></strong> · Policy validation tooling<br />Validation tooling focused on access policy correctness and operational safety.<br /><sub>Python · policy validation · platform security</sub></li>
+  <li><strong><a href="https://github.com/geopolitis/mistral-RL-scripts">mistral-RL-scripts</a></strong> · Model tuning and judging workflows<br />Training and evaluation scripts for model fine-tuning and judge-style LLM workflows.<br /><sub>Python · model training · evaluation pipelines</sub></li>
+</ul>
+    </td>
+    <td valign="top" width="50%">
+      <strong>Technical focus</strong>
+      <ul>
+  <li>Platform engineering for delivery systems, internal tooling, and operational resilience</li>
+  <li>DevSecOps and security automation spanning secrets, policy validation, and workflow hardening</li>
+  <li>AI/LLM engineering with evaluation pipelines, model-judge workflows, and practical experimentation</li>
+  <li>Hands-on implementation across Python, shell automation, JavaScript, and Rust-oriented systems work</li>
+</ul>
+    </td>
   </tr>
   <tr>
-    <td align="center"><strong>22</strong><br />Public repos</td>
-    <td align="center"><strong>24</strong><br />Stars earned</td>
-    <td align="center"><strong>183</strong><br />PRs authored</td>
-    <td align="center"><strong>45</strong><br />PRs merged</td>
+    <td valign="top" width="50%">
+      <strong>Engineering signals</strong>
+      <ul>
+  <li>Python: detected in 4 repos</li>
+  <li>GitHub Actions: detected in 3 repos</li>
+  <li>Docker: detected in 1 repo</li>
+  <li>PR merge rate (public): 25%</li>
+  <li>External collaboration breadth: 2 repos in recent public events</li>
+</ul>
+    </td>
+    <td valign="top" width="50%">
+      <strong>Live profile snapshot</strong>
+      <ul>
+  <li><strong>186</strong> public PRs authored, with <strong>46</strong> authored PRs merged</li>
+  <li><strong>25</strong> stars earned across <strong>22</strong> public repositories</li>
+  <li><strong>153</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
+  <li>Primary language footprint led by <strong>Python</strong> by repo count and <strong>Python</strong> by code volume</li>
+</ul>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>Detailed metrics</strong></summary>
+
+<table>
+  <tr>
+    <td align="center"><strong>13</strong><br />Years</td>
+    <td align="center"><strong>22</strong><br />Repos</td>
+    <td align="center"><strong>25</strong><br />Stars</td>
+    <td align="center"><strong>46</strong><br />Merged PRs</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>5</strong><br />Followers</td>
+    <td align="center"><strong>7</strong><br />Following</td>
+    <td align="center"><strong>186</strong><br />Authored PRs</td>
+    <td align="center"><strong>0</strong><br />Public orgs</td>
   </tr>
 </table>
 
@@ -110,7 +175,7 @@ GitHub since **2012**. This section is generated from the same repo- and event-l
     </td>
     <td valign="top" width="50%">
       <strong>Quality signals</strong><br />
-      <strong>Estimated lifetime commits:</strong> 151 commits across 8 sampled owned repos<br /><br />
+      <strong>Estimated lifetime commits:</strong> 153 across 8 sampled owned repos<br /><br />
       PR merge rate (public): 25%<br />
 External collaboration breadth: 2 repos in recent public events<br />
 Commit velocity: 0 commits over ~29 days of visible events<br />
@@ -123,9 +188,21 @@ Docker: detected in 1 repo
     </td>
   </tr>
 </table>
+
+</details>
 <!-- profile-stats:end -->
 
+---
 
+## Core areas
 
+`Platform Engineering` `SRE` `DevSecOps` `Cloud` `Observability` `Security Automation` `Resilience` `FinOps` `AI/LLM` `Data Platforms`
 
+---
 
+## Connect
+
+- Email: [geo.politis@gmail.com](mailto:geo.politis@gmail.com)
+- GitHub: [@geopolitis](https://github.com/geopolitis)
+- LinkedIn: [georgepolitis](https://www.linkedin.com/in/georgepolitis)
+- Blog: [opsatscale.com](https://opsatscale.com)
