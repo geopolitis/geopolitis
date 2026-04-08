@@ -27,37 +27,8 @@ My background spans:
 - AI, data, security, and operations
 
 <p align="left">
-  <img src="./profile/focus-animated.svg" alt="I build resilient platforms, improve delivery systems, strengthen security, and apply AI in practical engineering environments." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0969DA&width=900&lines=I+build+resilient+platforms.;I+improve+delivery+systems.;I+strengthen+security.;I+apply+AI+in+practical+engineering+environments." alt="I build resilient platforms. I improve delivery systems. I strengthen security. I apply AI in practical engineering environments." />
 </p>
-
-<details>
-<summary><strong>Animation options</strong></summary>
-
-**Current local SVG**
-
-![Current local SVG](./profile/focus-animated.svg)
-
-**Rotating statements**
-
-![Rotating statements](./profile/focus-rotating.svg)
-
-**Typing effect**
-
-![Typing effect](./profile/focus-typing.svg)
-
-**Mask reveal**
-
-![Mask reveal](./profile/focus-reveal.svg)
-
-**Frame swap**
-
-![Frame swap](./profile/focus-frame-swap.svg)
-
-**External typing service**
-
-![External typing service](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0969DA&width=900&lines=I+build+resilient+platforms.;I+improve+delivery+systems.;I+strengthen+security.;I+apply+AI+in+practical+engineering+environments.)
-
-</details>
 
 ## Thought leadership
 
