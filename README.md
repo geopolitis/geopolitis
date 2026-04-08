@@ -30,28 +30,6 @@ I focus on building resilient platforms, improving delivery systems, strengtheni
 
 ---
 
-## Featured repositories
-
-### [GPT-playground](https://github.com/geopolitis/GPT-playground)
-Playground for GPT experiments and prototyping.
-
-### [Vault-policy-validator](https://github.com/geopolitis/Vault-policy-validator)
-Python tooling for validating Vault policies.
-
-### [MCP-f-Secrets](https://github.com/geopolitis/MCP-f-Secrets)
-Secrets-related workflows and MCP experimentation.
-
-### [SRE_maturity_assesment](https://github.com/geopolitis/SRE_maturity_assesment)
-Ideas and utilities around SRE maturity assessment.
-
-### [mistral-RL-scripts](https://github.com/geopolitis/mistral-RL-scripts)
-Scripts for Mistral-based fine-tuning and evaluation workflows.
-
-### [buddies](https://github.com/geopolitis/buddies)
-Smaller Python tooling project.
-
----
-
 ## Thought leadership
 
 - LLM & Agent Vulnerability Taxonomy 2026
