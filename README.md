@@ -76,9 +76,9 @@ GitHub since **2012**. This section is generated from the same repo- and event-l
 | Following | 7 |
 | Public orgs | 0 |
 | Total stars earned | 24 |
-| PRs authored (public) | 183 |
+| PRs authored (public) | 182 |
 | PRs merged (public) | 44 |
-| Estimated lifetime commits (owned repos sample) | 147 across 8 repos |
+| Estimated lifetime commits (owned repos sample) | 149 across 8 repos |
 
 **Top starred repositories**
 - [MCP-f-Secrets](https://github.com/geopolitis/MCP-f-Secrets): 3 stars
@@ -89,7 +89,7 @@ GitHub since **2012**. This section is generated from the same repo- and event-l
 
 **Primary languages by repo count**
 Same logic as `app.js`: this counts each public repository by its single GitHub-detected primary language.
-- Python: primary language in 5 repos
+- Python: primary language in 6 repos
 - Ruby: primary language in 5 repos
 - CSS: primary language in 3 repos
 - JavaScript: primary language in 2 repos
@@ -98,9 +98,9 @@ Same logic as `app.js`: this counts each public repository by its single GitHub-
 
 **Language footprint by code bytes**
 Same logic as `app.js`: this samples the 8 most recently pushed owned public repositories, then sums GitHub language-byte totals.
-- Python: 60.8% (930,527 bytes)
-- JavaScript: 16.3% (249,485 bytes)
-- HTML: 11.3% (172,534 bytes)
+- Python: 61.1% (943,406 bytes)
+- JavaScript: 16.2% (249,485 bytes)
+- HTML: 11.2% (172,534 bytes)
 - CSS: 8.1% (124,771 bytes)
 - Shell: 2.1% (32,613 bytes)
 - Vue: 1.4% (21,099 bytes)
