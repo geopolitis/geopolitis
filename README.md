@@ -54,7 +54,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
   <img src="https://img.shields.io/badge/Years_on_GitHub-13-1F6FEB?style=for-the-badge" alt="Years on GitHub: 13" />
   <img src="https://img.shields.io/badge/Public_Repos-22-238636?style=for-the-badge" alt="Public Repos: 22" />
   <img src="https://img.shields.io/badge/Stars_Earned-41-9A6700?style=for-the-badge" alt="Stars Earned: 41" />
-  <img src="https://img.shields.io/badge/Authored_PRs_Merged-46-0969DA?style=for-the-badge" alt="Authored PRs Merged: 46" />
+  <img src="https://img.shields.io/badge/Authored_PRs_Merged-47-0969DA?style=for-the-badge" alt="Authored PRs Merged: 47" />
 </p>
 
 <table>
