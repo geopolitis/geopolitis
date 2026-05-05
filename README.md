@@ -53,7 +53,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 <p align="center">
   <img src="https://img.shields.io/badge/Years_on_GitHub-13-1F6FEB?style=for-the-badge" alt="Years on GitHub: 13" />
   <img src="https://img.shields.io/badge/Public_Repos-23-238636?style=for-the-badge" alt="Public Repos: 23" />
-  <img src="https://img.shields.io/badge/Stars_Earned-45-9A6700?style=for-the-badge" alt="Stars Earned: 45" />
+  <img src="https://img.shields.io/badge/Stars_Earned-47-9A6700?style=for-the-badge" alt="Stars Earned: 47" />
   <img src="https://img.shields.io/badge/Authored_PRs_Merged-52-0969DA?style=for-the-badge" alt="Authored PRs Merged: 52" />
 </p>
 
@@ -62,8 +62,8 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
     <td valign="top" width="50%">
       <strong>Engineering signals</strong>
       <ul>
-  <li>Python: detected in 4 repos</li>
   <li>GitHub Actions: detected in 4 repos</li>
+  <li>Python: detected in 4 repos</li>
   <li>Docker: detected in 1 repo</li>
   <li>Commit velocity: 0 commits over ~28 days of visible events</li>
   <li>Mature repo coverage: 5/8 sampled owned repos score 60+</li>
@@ -74,7 +74,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
       <strong>Live profile snapshot</strong>
       <ul>
   <li><strong>13 years</strong> on GitHub with <strong>23</strong> public repositories</li>
-  <li><strong>45</strong> stars earned across public work</li>
+  <li><strong>47</strong> stars earned across public work</li>
   <li><strong>116</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
   <li>Primary language footprint led by <strong>Python</strong> by repo count and <strong>Python</strong> by code volume</li>
 </ul>
@@ -94,7 +94,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 <summary><strong>Methodology and detailed metrics</strong></summary>
 
 <strong>Top starred repositories</strong><br />
-<a href="https://github.com/geopolitis/cdad"><strong>cdad</strong></a> · 4 stars - Context-Disciplined Agent Development (CDAD)<br />
+<a href="https://github.com/geopolitis/cdad"><strong>cdad</strong></a> · 6 stars - Context-Disciplined Agent Development (CDAD)<br />
 <a href="https://github.com/geopolitis/MCP-f-Secrets"><strong>MCP-f-Secrets</strong></a> · 3 stars<br />
 <a href="https://github.com/geopolitis/mistral-RL-scripts"><strong>mistral-RL-scripts</strong></a> · 3 stars - Fine Tune Mistral model to become Judge for LLMtrace<br />
 <a href="https://github.com/geopolitis/buddies"><strong>buddies</strong></a> · 2 stars<br />
