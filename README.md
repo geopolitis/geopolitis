@@ -52,7 +52,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Years_on_GitHub-13-1F6FEB?style=for-the-badge" alt="Years on GitHub: 13" />
-  <img src="https://img.shields.io/badge/Public_Repos-23-238636?style=for-the-badge" alt="Public Repos: 23" />
+  <img src="https://img.shields.io/badge/Public_Repos-24-238636?style=for-the-badge" alt="Public Repos: 24" />
   <img src="https://img.shields.io/badge/Stars_Earned-49-9A6700?style=for-the-badge" alt="Stars Earned: 49" />
   <img src="https://img.shields.io/badge/Authored_PRs_Merged-52-0969DA?style=for-the-badge" alt="Authored PRs Merged: 52" />
 </p>
@@ -62,18 +62,18 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
     <td valign="top" width="50%">
       <strong>Engineering signals</strong>
       <ul>
-  <li>GitHub Actions: detected in 4 repos</li>
-  <li>Python: detected in 4 repos</li>
+  <li>GitHub Actions: detected in 3 repos</li>
+  <li>Python: detected in 3 repos</li>
   <li>Docker: detected in 1 repo</li>
-  <li>Commit velocity: 0 commits over ~21 days of visible events</li>
-  <li>Mature repo coverage: 5/8 sampled owned repos score 60+</li>
-  <li>Quality signals in sample: README 7/8, Tests 4/8, CI 4/8</li>
+  <li>Commit velocity: 0 commits over ~27 days of visible events</li>
+  <li>Mature repo coverage: 4/8 sampled owned repos score 60+</li>
+  <li>Quality signals in sample: README 7/8, Tests 3/8, CI 3/8</li>
 </ul>
     </td>
     <td valign="top" width="50%">
       <strong>Live profile snapshot</strong>
       <ul>
-  <li><strong>13 years</strong> on GitHub with <strong>23</strong> public repositories</li>
+  <li><strong>13 years</strong> on GitHub with <strong>24</strong> public repositories</li>
   <li><strong>49</strong> stars earned across public work</li>
   <li><strong>116</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
   <li>Primary language footprint led by <strong>Python</strong> by repo count and <strong>Python</strong> by code volume</li>
@@ -107,16 +107,16 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 <code>██░░░░░░░░</code> <strong>CSS</strong> · 3 repos<br />
 <code>█░░░░░░░░░</code> <strong>JavaScript</strong> · 2 repos<br />
 <code>█░░░░░░░░░</code> <strong>Shell</strong> · 2 repos<br />
-<code>░░░░░░░░░░</code> <strong>Jupyter Notebook</strong> · 1 repo<br /><br />
+<code>░░░░░░░░░░</code> <strong>Dockerfile</strong> · 1 repo<br /><br />
 
 <strong>Language footprint by code bytes</strong><br />
 <sub>Same logic as <code>app.js</code>: sampled from the 8 most recently pushed owned public repositories.</sub><br /><br />
-<code>██████░░░░</code> <strong>Python</strong> · 62.8%<br />
-<code>██░░░░░░░░</code> <strong>JavaScript</strong> · 15.5%<br />
-<code>█░░░░░░░░░</code> <strong>HTML</strong> · 10.7%<br />
-<code>█░░░░░░░░░</code> <strong>CSS</strong> · 7.7%<br />
-<code>░░░░░░░░░░</code> <strong>Shell</strong> · 2.0%<br />
-<code>░░░░░░░░░░</code> <strong>Vue</strong> · 1.3%
+<code>██████░░░░</code> <strong>Python</strong> · 56.6%<br />
+<code>██░░░░░░░░</code> <strong>JavaScript</strong> · 20.9%<br />
+<code>█░░░░░░░░░</code> <strong>CSS</strong> · 10.5%<br />
+<code>█░░░░░░░░░</code> <strong>HTML</strong> · 7.5%<br />
+<code>░░░░░░░░░░</code> <strong>Shell</strong> · 2.8%<br />
+<code>░░░░░░░░░░</code> <strong>Vue</strong> · 1.8%
 
 </details>
 <!-- profile-stats:end -->
