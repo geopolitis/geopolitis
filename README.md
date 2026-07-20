@@ -54,7 +54,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
   <img src="https://img.shields.io/badge/Years_on_GitHub-13-1F6FEB?style=for-the-badge" alt="Years on GitHub: 13" />
   <img src="https://img.shields.io/badge/Public_Repos-26-238636?style=for-the-badge" alt="Public Repos: 26" />
   <img src="https://img.shields.io/badge/Stars_Earned-50-9A6700?style=for-the-badge" alt="Stars Earned: 50" />
-  <img src="https://img.shields.io/badge/Authored_PRs_Merged-52-0969DA?style=for-the-badge" alt="Authored PRs Merged: 52" />
+  <img src="https://img.shields.io/badge/Authored_PRs_Merged-54-0969DA?style=for-the-badge" alt="Authored PRs Merged: 54" />
 </p>
 
 <table>
@@ -65,7 +65,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
   <li>Python: detected in 4 repos</li>
   <li>GitHub Actions: detected in 2 repos</li>
   <li>Docker: detected in 1 repo</li>
-  <li>Commit velocity: 0 commits over ~22 days of visible events</li>
+  <li>Commit velocity: 0 commits over ~25 days of visible events</li>
   <li>Mature repo coverage: 3/8 sampled owned repos score 60+</li>
   <li>Quality signals in sample: README 8/8, Tests 1/8, CI 2/8</li>
 </ul>
@@ -75,7 +75,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
       <ul>
   <li><strong>13 years</strong> on GitHub with <strong>26</strong> public repositories</li>
   <li><strong>50</strong> stars earned across public work</li>
-  <li><strong>102</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
+  <li><strong>106</strong> estimated lifetime commits across <strong>8</strong> sampled owned repos</li>
   <li>Primary language footprint led by <strong>Python</strong> by repo count and <strong>Python</strong> by code volume</li>
 </ul>
     </td>
@@ -111,7 +111,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
 
 <strong>Language footprint by code bytes</strong><br />
 <sub>Same logic as <code>app.js</code>: sampled from the 8 most recently pushed owned public repositories.</sub><br /><br />
-<code>███████░░░</code> <strong>Python</strong> · 72.1%<br />
+<code>███████░░░</code> <strong>Python</strong> · 72.2%<br />
 <code>█░░░░░░░░░</code> <strong>CSS</strong> · 11.9%<br />
 <code>█░░░░░░░░░</code> <strong>JavaScript</strong> · 8.0%<br />
 <code>░░░░░░░░░░</code> <strong>Vue</strong> · 3.4%<br />
