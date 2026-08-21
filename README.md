@@ -66,7 +66,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
   <li>GitHub Actions: detected in 2 repos</li>
   <li>Docker: detected in 1 repo</li>
   <li>Commit velocity: 0 commits over ~1 days of visible events</li>
-  <li>Mature repo coverage: 3/8 sampled owned repos score 60+</li>
+  <li>Mature repo coverage: 2/8 sampled owned repos score 60+</li>
   <li>Quality signals in sample: README 8/8, Tests 1/8, CI 2/8</li>
 </ul>
     </td>
