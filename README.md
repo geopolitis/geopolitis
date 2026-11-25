@@ -54,7 +54,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
   <img src="https://img.shields.io/badge/Years_on_GitHub-13-1F6FEB?style=for-the-badge" alt="Years on GitHub: 13" />
   <img src="https://img.shields.io/badge/Public_Repos-26-238636?style=for-the-badge" alt="Public Repos: 26" />
   <img src="https://img.shields.io/badge/Stars_Earned-50-9A6700?style=for-the-badge" alt="Stars Earned: 50" />
-  <img src="https://img.shields.io/badge/Authored_PRs_Merged-54-0969DA?style=for-the-badge" alt="Authored PRs Merged: 54" />
+  <img src="https://img.shields.io/badge/Authored_PRs_Merged-56-0969DA?style=for-the-badge" alt="Authored PRs Merged: 56" />
 </p>
 
 <table>
@@ -65,7 +65,7 @@ Read more on my blog: [opsatscale.com](https://opsatscale.com)
   <li>Python: detected in 4 repos</li>
   <li>GitHub Actions: detected in 2 repos</li>
   <li>Docker: detected in 1 repo</li>
-  <li>Commit velocity: 0 commits over ~8 days of visible events</li>
+  <li>Commit velocity: 0 commits over ~1 days of visible events</li>
   <li>Mature repo coverage: 2/8 sampled owned repos score 60+</li>
   <li>Quality signals in sample: README 8/8, Tests 1/8, CI 2/8</li>
 </ul>
